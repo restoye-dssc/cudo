@@ -3,8 +3,9 @@ body {
   background-color: #ffffff; }
 
 .nav-header {
-  background-color: #2a8c5d;
-  margin: 0px; }
+    background-color: #1D84C6;
+    margin: 0px;
+}
   .nav-header .header-logo {
     float: left;
     width: 9%; }
