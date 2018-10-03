@@ -64,9 +64,7 @@
             <a href=""> <i class="fa fa-bell" aria-hidden="true"></i></a>
           </div>
           <div class="profile">
-            <span class="profile_dropdown"><button class="profile_dropdown"
-              type="button" id="dropdownMenu5" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i></button></span>
+            <span class="profile_dropdown"><a href="{% url 'micro_admin:logout' %}"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></span>
             <div class="dropdown-menu profile_logout">
               <a class="dropdown-item" href="{% url 'micro_admin:userprofile' request.user.id %}">Profile</a>
               <a class="dropdown-item" href="{% url 'micro_admin:userchangepassword'%}">Change Password</a>
