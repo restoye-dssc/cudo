@@ -4,7 +4,7 @@
   "repository": "https://github.com/restoye-dssc/cudo.git",
   "addons": [ "heroku-postgresql:hobby-dev" ],
   "scripts": {
-    "postdeploy": "python manage_local.py makemigrations && python manage_local.py migrate && echo \"from micro_admin.models import User; User.objects.create_superuser('Admin001', 'admin001')\" | python manage_local.py shell"
+    "postdeploy": "python manage_local.py makemigrations && python manage_local.py migrate && echo \"from micro_admin.models import User; User.objects.create_superuser('admin', 'paymenta')\" | python manage_local.py shell"
   },
   "env": {}
 }
