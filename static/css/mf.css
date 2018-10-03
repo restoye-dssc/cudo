@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 body {
   background: #f0f3f4;
@@ -9,7 +9,7 @@ body {
 }
 
 .bkrd {
-  background: #019090;
+    background: #1D84C6;
 }
 
 .marl {
