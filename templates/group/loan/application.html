@@ -29,11 +29,14 @@
             <div class="input-group">
               <label class="filter_branch">Loan Repayment Every : </label>
               <select class="custom-select" name="loan_repayment_every" id="loan_repayment_every">
-                <option value="">Please Select Option</option>
-                {% for val in loan_repayment_every %}
-                  <option value="{{ val.value }}">{{ val.value }}</option>
-                {% endfor %}
-             </select>
+                  <option value="">Please Select Option</option>
+                  <!--{% for val in loan_repayment_every %}-->
+                  <option value="1">Monthly</option>
+                  <option value="2">Quarterly</option>
+                  <option value="3">Anually</option>
+
+                  <!--{% endfor %}-->
+              </select>
             </div>
             <div class="input-group">
               <label class="filter_branch">Interset Type : </label>
