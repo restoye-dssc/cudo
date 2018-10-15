@@ -8,13 +8,13 @@
     <h3>Deposits</h3>
     <div class="select_banner row">
       <div class="col-5">
-        <button type="button" class="pull-right branch">Fixed</button>
+        <button type="button" class="pull-right branch"><a href="{% url 'micro_admin:fixeddeposits' %}">Fixed</a></button>
       </div>
       <div class="col">
         <span class="select_or">Or</span>
       </div>
       <div class="col-5">
-        <button type="button" class="pull-left branch">Recurring</button>
+        <button type="button" class="pull-left branch"><a href="{% url 'micro_admin:recurringdeposits' %}">Recurring</a></button>
       </div>
     </div>
   </div>
