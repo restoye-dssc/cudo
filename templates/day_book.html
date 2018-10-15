@@ -30,8 +30,8 @@
     {% else %}
       <h3 class="panel-title">
           Day Book
-          <!--{% url 'micro_admin:daybookpdfdownload' selected_date %}-->
-          <span><a href="#" target="_blank"><button class="view-tab-btn"><i class="fa fa-download padd"></i>PDF Download</button></a></span>
+          <!---->
+          <span><a href="{% url 'micro_admin:daybookpdfdownload' selected_date %}" target="_blank"><button class="view-tab-btn"><i class="fa fa-download padd"></i>PDF Download</button></a></span>
       </h3>
     </div>
     {% include "daybook_table.html" %}
