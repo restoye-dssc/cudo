@@ -9,10 +9,11 @@
   <!--form div starts below-->
   <div class="panel panel-default my-panel-bprofile margin-top-set trans-table">
     <div class="panel-heading">
-      <h3 class="panel-title">
-        General Ledger
-        <span><a href="{% url 'micro_admin:generalledgerpdfdownload' %}" target="_blank"><button class="view-tab-btn"><i class="fa fa-download padd"></i>PDF Download</button></a></span>
-      </h3>
+        <h3 class="panel-title">
+            General Ledger
+            <!--{% url 'micro_admin:generalledgerpdfdownload' %}-->
+            <span><a href="#" target="_blank"><button class="view-tab-btn"><i class="fa fa-download padd"></i>PDF Download</button></a></span>
+        </h3>
     </div>
     {% include "generalledgertable.html" %}
   </div>
